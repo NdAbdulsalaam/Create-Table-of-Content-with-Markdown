@@ -11,7 +11,6 @@
 - [Emphasis on text with bold and italics](#emphasis-on-text-with-bold-and-italics)
 - [Block quotes](#block-quotes)
 - [Add links in markdown](#add-links-in-markdown)
-      - [To link an image, use the first method beginnig with a bang !.](#to-link-an-image-use-the-first-method-beginnig-with-a-bang-)
 - [Creating table](#creating-table)
 - [Inline code](#inline-code)
 - [Add image to Kaggle notebook](#add-image-to-kaggle-notebook)
@@ -141,8 +140,10 @@ Visit [Wikipedia](https://en.wikipedia.org/wiki/Markdown) today!
 Emails are also linked like this <name@emailaddress.com>
 3. Refrence links: This is use to link various parts in a page. Place the word to display in the square bracket [] and the actual link preceeded by # is inside parentheses (). <a id = "ref. text"></a>
 
-#### To link an image, use the first method beginnig with a bang !.  
-
+```
+To link an image, use the first method beginnig with a bang !
+![How to display image using the first method](add_links.jfif) 
+```
 ![How to display image using the first method](add_links.jfif)
 
 
