@@ -4,17 +4,10 @@
 - [Table of Content](#table-of-content)
 - [Introduction](#introduction)
 - [Headings](#headings)
-- [Level 1 Heading](#level-1-heading)
-  - [Level 2 Heading](#level-2-heading)
-    - [Level 3 Heading](#level-3-heading)
-      - [Level 4 Heading](#level-4-heading)
-        - [Level 5 Heading](#level-5-heading)
-          - [Level 6 Heading](#level-6-heading)
 - [Paragraph](#paragraph)
 - [Lists](#lists)
 - [Line Break](#line-break)
 - [Horizontal Rules](#horizontal-rules)
-  - [The guy](#the-guy)
 - [Emphasis on text with bold and italics](#emphasis-on-text-with-bold-and-italics)
 - [Block quotes](#block-quotes)
 - [Add links in markdown](#add-links-in-markdown)
@@ -40,16 +33,19 @@ Links use HTML to target your browser to that specific section of your Kaggle no
 # Headings
 
 There are six levels. The  most common method is by typing # at the beginning of a line. The number of # denotes the level. On Kaggle, all level 1 headings will be automatically added under the table of content.
-
+```
 # Level 1 Heading
 ## Level 2 Heading
 ### Level 3 Heading
 #### Level 4 Heading
 ##### Level 5 Heading
 ###### Level 6 Heading
+```
 
 Another method is the use of the <h> tag with a number indicating the level:
-<h1>Level 1 Heading</h1>  
+```
+<h1>This is a level 1 heading</h1>  
+```
 
 
 <a id = "paragraph"></a>
@@ -104,9 +100,10 @@ is a programmer!
 ___
 
 Note that using dashes with text on it  represent a pseudo-heading.
-
+```
 The guy
 ---
+```
 
 However, this is not a header
 
